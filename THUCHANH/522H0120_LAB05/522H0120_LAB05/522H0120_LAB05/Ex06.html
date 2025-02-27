@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style src="Ex06.css">
+      #message {
+        padding: 25px;
+        position: absolute;
+        border: 8px;
+        width: 350px;
+        height: 25px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+        background: #ccc;
+        text-align: center;
+      }
+      #box1 {
+        width: 432px;
+        height: 432px;
+        margin-top: 50px;
+
+        padding: 0;
+      }
+      .inner-box1 {
+        width: 144px;
+        height: 144px;
+        border: 1px solid #ccc;
+        float: left;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+          rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+      }
+      #box2 {
+        width: 720px;
+        height: 288px;
+        padding: 0;
+      }
+      .inner-box2 {
+        float: left;
+        width: 144px;
+        height: 144px;
+        border: 1px solid #ccc;
+        float: left;
+
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+          rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+      }
+      .inner-box2 img {
+        object-fit: cover;
+        aspect-ratio: 1/1;
+        width: 100%;
+
+        height: 100%;
+      }
+      .inner-box1 img {
+        object-fit: cover;
+        aspect-ratio: 1/1;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div id="box1"></div>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <div id="box2"></div>
+      </div>
+    </div>
+    <div id="message">Completed !</div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="ex06.js"></script>
+</html>

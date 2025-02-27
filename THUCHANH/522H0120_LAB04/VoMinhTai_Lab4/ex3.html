@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise 3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-8 col-sm-10 mt-5 p-4 border rounder mx-auto">
+            <form action="">
+                <div class="form-row was-validated">
+                    <div class="form-group col-m-6">
+                        <label for="first-name">First name</label>
+                        <input class="form-control" id="first-name" type="text" placeholder="First name" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">First name is required.</div>
+                    </div>
+        
+                    <div class="form-group col-md-6">
+                        <label for="last-name">Last name</label>
+                        <input class="form-control" id="last-name" type="text" placeholder="Last name" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Last name is required.</div>
+                    </div>
+                </div>
+    
+                <div class="form-group was-validated">
+                    <label for="uname">Username:</label>
+                    <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+    
+                <div class="form-group was-validated">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+    
+                <div class="mb-1">Gender</div>
+    
+                <div class="form-group form-inline">
+                    <div class="custom-control custom-radio mr-3">
+                        <input type="radio" class="custom-control-input" id="gender-male" name="gender" value="customEx">
+                        <label class="custom-control-label" for="gender-male">Male</label>
+                    </div>
+        
+                    <div class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" id="gender-female" name="gender" value="customEx">
+                        <label class="custom-control-label" for="gender-female">Female</label>
+                    </div>
+                </div>
+    
+                <div class="form-group was-validated">
+                    <label for="country">Country</label>
+                    <select id="country" name="country" class="custom-select">
+                        <option selected>Select a country</option>
+                        <option value="vietnam">Vietnam</option>
+                        <option value="laos">Laos</option>
+                        <option value="cambodia">Cambodia</option>
+                      </select>
+                </div>
+    
+                <div class="form-group">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="remember" name="remember">
+                        <label class="custom-control-label" for="remember">Remember me</label>
+                      </div>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-success px-5 mr-2">Login</button>
+                    <button class="btn btn-outline-success px-5">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+</body>
+</html>
