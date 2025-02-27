@@ -1,0 +1,123 @@
+
+    /* Responsive Page.css */
+
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for header */
+.header {
+    background-color: #004c3f;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+.header:hover {
+    background-color: rgb(9, 9, 112) ;
+}
+
+/* Style for content section */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+/* Style for menu column */
+.menu {
+    
+    padding: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 10px 0;
+}
+.col-3.col-s-4.menu li {
+    background-color: #485c64 ;
+    padding-left: 20px ;
+    margin-bottom: 10px;
+    color: white ;
+    padding: 10px;
+    
+}
+.col-3.col-s-4.menu {
+    vertical-align: top ;
+}
+
+.col-3.col-s-4.menu li:hover {
+    background-color: #283434;
+}
+
+/* Style for main content column */
+.col-5 {
+    
+    padding: 20px;
+}
+
+/* Style for aside column */
+.col-4 {
+    background-color: #485c64;
+    padding: 20px;
+    color: white ;
+    
+}
+
+.col-4:hover {
+    background-color: #283434;
+}
+h2,p {
+    margin-bottom: 10px;
+}
+
+/* Style for footer */
+.footer {
+    background-color: #485c64;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+.footer:hover {
+    background-color: #283434 ;
+}
+
+/* Media queries for responsiveness */
+
+/* For small screens */
+@media only screen and (max-width: 1024px) {
+    .col-3, .col-5, .col-4 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .col-s-12 {
+        display: block;
+    }
+}
+
+/* For larger screens */
+@media only screen and (min-width: 1025px) {
+    .col-3 {
+        flex-basis: calc(25% - 20px);
+    }
+
+    .col-5 {
+        flex-basis: calc(41.67% - 20px);
+    }
+
+    .col-4 {
+        flex-basis: calc(33.33% - 20px);
+    }
+}
+
+

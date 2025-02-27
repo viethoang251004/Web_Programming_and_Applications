@@ -1,0 +1,53 @@
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: green;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px dashed #b00c2d;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+.weekday {
+    font-weight: bold;
+}
+
+.weekday:hover{
+    background-color: #5f52ab;
+}
+
+
+.header {
+    background-color:#5f52ab;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header:hover {
+    background-color: #5340be;
+}
+
+.lab {
+    background-color: #ffefb3;
+    color: black;
+}
+
+.lab:hover {
+    background-color:  #ffde65;
+}
+
+.empty{
+    background-color: gainsboro;
+}
+
+.empty:hover {
+    background-color: gray;
+}

@@ -1,0 +1,85 @@
+body {
+    padding: 40px;
+    background-color: #fff8df;
+    font-family: "Roboto Condensed";
+}
+
+.content{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 400px;
+    margin: 30px auto;
+    padding: 16px;
+    background-color: white;
+}
+
+@media all and (max-width: 600px){
+    .content{
+        width: 95px;
+    }
+}
+
+.form-group{
+    margin-bottom: 16px;
+}
+
+.form-control{
+    width: 100%;
+    height: 32px;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border-radius: 10px; /*bo tròn */
+    outline: none;
+    border: 2px #d6d6d6 solid;
+}
+
+.form-control:hover{
+    border: 2px solid #db8d00;
+    background-color: #fff5cf;
+}
+
+input[type="range"]{
+    width: 400px;
+}
+
+label{ /* tag name dont need .before*/
+    color: #343434;
+    font-size: 20px;
+    margin-bottom: 8px;
+    display: block /* compulsory to change inline to block*/
+}
+
+.form-group div label{ /*to keep 2 label male and female in them same line */
+    display: inline;
+}
+
+.input-error{
+    font-size: 11px;
+    color: red;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+button{
+    outline: none;
+    padding: 8px;
+    
+    color: white;
+    border-radius: 8px;
+}
+
+button[type="submit"]{
+    background-color: #e52248;
+}
+
+button[type="submit"]:hover{
+    background-color: #b80729;
+}
+
+button[type="reset"]{
+    background-color: #e5ae22;
+}
+
+button[type="reset"]:hover{ 
+    background-color: #b2830b;
+}

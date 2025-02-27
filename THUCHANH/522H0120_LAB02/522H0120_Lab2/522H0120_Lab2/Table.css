@@ -1,0 +1,48 @@
+/*Exercise 1: Student Schedule Table*/
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align:center;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color:#388e3c;
+  margin: 20px;
+}
+
+table {
+  border: dashed #b00c2d;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td:nth-child(1), tr:nth-child(1) {
+  font-weight: 600;
+}
+
+tr:nth-child(1) {
+  color:white;
+  background: #5f52ab;
+}
+
+table td[colspan="2"], td[rowspan="8"] {
+  background-color: #ffefb3;
+  color: black;
+}
+
+tr:nth-child(8) td:nth-child(2),
+tr:nth-child(2) td:nth-child(4),
+tr:nth-child(8) td:nth-child(3) {
+  background: #e0e0e0;
+}
+
+td {
+  padding: 10px;
+}

@@ -1,0 +1,70 @@
+
+        /*  Gợi ý màu:
+
+            + Nền body: #fff8df
+            + Nút 'Register': #dd2c2c
+            + Nút 'Reset': #e3a73f
+            + Chữ báo lỗi (error message): #bc1313
+            + nền input khi hover: #fff5cf
+            + nền input khi focus: #f3de8e
+            + viền input khi focus: #d97000
+
+        */
+body {
+    padding: 40px;
+    background-color: #fff8df;
+}
+
+.content {
+    border: 1px solid grey ;
+    border-radius: 10px;
+    width: 300px   ;
+    height: 420px;
+    padding-left: 15px;
+    background-color: white ;
+    padding-top: 20px ;
+}
+.form-group {
+    margin-bottom: 10px ;
+}
+
+
+.form-control {
+    display: block ;
+    width: 275px ;
+    border-radius: 5px ;
+    border: 1px solid grey ;
+    outline: none ;
+}
+.form-control:hover {
+    background-color: #fff5cf;
+}
+.form-control:focus {
+    background-color: #f3de8e ;
+    border: 1px solid  #d97000;
+    outline: none;
+}
+
+.reset-b { 
+    background-color: #e3a73f;
+    border: none ;
+    border-radius: 3px ;
+    color: white ;
+    padding : 5px ;
+    cursor: pointer;
+}
+
+.submit-b {
+    background-color: #dd2c2c;
+    border: none ;
+    border-radius: 3px ;
+    color: white ;
+    padding : 5px ;
+    cursor: pointer;
+    
+}
+.input-error {
+    color: #bc1313;
+    font-size: 10px;
+}
+

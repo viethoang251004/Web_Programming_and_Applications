@@ -1,0 +1,37 @@
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+.LAB {
+    background-color: #ffefb3;
+}
+
+.LUNCH {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.empty {
+    background-color: lightgrey;
+}
+
+.heading {
+    text-transform: uppercase;
+    color: white;
+    background-color: #5f52ab;
+    font-weight: bold;
+}
+
+.a {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px dashed #b00c2d;
+    margin-left: auto;
+    margin-right: auto;
+}

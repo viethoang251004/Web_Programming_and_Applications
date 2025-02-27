@@ -1,0 +1,68 @@
+/* Style for the text messages sent by the texter */
+body  {
+    
+    background-color: grey ;
+}
+
+#chat {
+    background-color: white  ;
+    width: 500px;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid grey ;
+    padding: 20px ;
+}
+
+.hoder.me {
+    align-self: flex-end;
+    justify-content: flex-end;
+    
+}
+
+/* Style for the text messages sent by you */
+.hoder.me .content {
+    background-color: green; /* Light green background */
+    color: white ; /* Black text color */
+    
+    
+}
+
+/* Style for the text messages sent by the other texter */
+.hoder .content {
+    background-color: #E4E4E4; /* Light grey background */
+    color: #000; /* Black text color */
+} 
+
+.hoder {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hoder.me {
+    justify-content: flex-end;
+}
+
+.chat {
+    display: inline-block;
+    border: 2px solid grey;
+    max-width: 500px; /* Set maximum width for the chat container */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.content {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 35%;
+}
+
+.hoder.me .content {
+    background-color: green;
+    color: white;
+}
+
+.hoder .content {
+    background-color: #E4E4E4;
+    color: #000;
+}

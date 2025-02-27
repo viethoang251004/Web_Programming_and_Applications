@@ -1,0 +1,60 @@
+
+/** Gới ý màu
++ tiêu đề: #388e3c
++ Viền bảng: #b00c2d
++ Dòng header: #5f52ab
++ Lunch và lab: #ffefb3
++ Empty: #e0e0e0
+*/
+
+h3 {
+    color: #388e3c ;
+}
+
+table {
+    border: 3px solid #b00c2d;
+    border-style: dashed;
+    text-align: center;
+    margin: auto;
+    
+}
+h3 {
+    text-align: center ;
+}
+.time-table {
+    display: inline-block;
+    text-align: center;
+}
+
+.header {
+    color: white ;
+    background-color: #5f52ab;
+}
+.header:hover {
+    background-color: #3d356b;
+}
+
+.date {
+    font-weight: bold ;
+}
+.date:hover {
+    color: white;
+    background-color: #5f52ab;
+
+}
+.lab {
+    background-color: #ffefb3 ;
+}
+.lunch {
+    background-color: #ffefb3 ; 
+    color:black 
+}
+.lab:hover, .lunch:hover  {
+    background-color: #c9ab4b ;
+}
+.empty {
+    background-color: #e0e0e0;
+}
+.empty:hover {
+    background-color: #797676;
+}

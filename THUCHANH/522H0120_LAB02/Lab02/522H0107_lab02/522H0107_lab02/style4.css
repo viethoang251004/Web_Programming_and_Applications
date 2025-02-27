@@ -1,0 +1,29 @@
+
+ .hoder {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    
+}
+
+.hoder .content {
+    background-color: rgb(221, 215, 215);
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+
+.hoder.me {
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.hoder.me .content {
+    background-color: rgb(3, 163, 3);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    
+} 
