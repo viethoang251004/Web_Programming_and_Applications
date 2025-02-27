@@ -1,0 +1,95 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section>
+            <header>ChatBot - Contact with people</header>
+            <form action="g">
+                <div class="error-text"></div>
+                <div class="name-details">
+                    < class="'field input">
+                        <label for="">Tên</label>
+                        <input types="text" name="fname" placeholder="Tên" required>
+                </div>
+                <div class="name-details">
+                    < class="'field input">
+                        <label for="">Họ</label>
+                        <input types="text" name="fname" placeholder="Họ" required>
+                </div>
+            </form>
+            <div class="link">Đã có tài khoản? <a href="login"></a></div>
+        </section>
+    </div>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Chatbot Website</title>
+</head>
+
+<body>
+    <header>
+        <h1>Chatbot Website</h1>
+    </header>
+
+    <main>
+        <div class="tabs">
+            <button id="login-tab" class="tab-btn active" onclick="changeTab('login')">Login</button>
+            <button id="register-tab" class="tab-btn" onclick="changeTab('register')">Register</button>
+        </div>
+
+        <div class="tab-content" id="login-content">
+            <form id="login-form">
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" name="login-username" required>
+
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="login-password" required>
+
+                <button type="button" onclick="login()">Login</button>
+            </form>
+        </div>
+
+        <div class="tab-content" id="register-content" style="display: none;">
+            <form id="register-form">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" id="phone-number" name="phone-number" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="register-username">Username:</label>
+                <input type="text" id="register-username" name="register-username" required>
+
+                <label for="register-password">Password:</label>
+                <input type="password" id="register-password" name="register-password" required>
+
+                <button type="button" onclick="register()">Register</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Chatbot Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

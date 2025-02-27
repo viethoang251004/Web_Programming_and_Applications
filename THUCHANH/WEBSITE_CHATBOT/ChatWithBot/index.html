@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Chatbot Homepage</title>
+</head>
+
+<body>
+    <header>
+        <h1>Chatbot Homepage</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="chat.html">Chat with Bot</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages">
+                <p class="bot-message">Hello! How can I assist you today?</p>
+            </div>
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-btn" onclick="sendMessage()">Send</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Chatbot Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
